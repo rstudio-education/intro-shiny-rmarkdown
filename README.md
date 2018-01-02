@@ -17,7 +17,7 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::con
     - Bibliographies
     - The Markdown Quick Reference
 
-#### 10:30 - 11:00: Morning break
+#### :coffee: 10:30 - 11:00: Morning break
 
 #### 11:00 - 12:30: Session 2 - [NEED NAME]
   - Embedding code with knitr
