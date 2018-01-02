@@ -6,9 +6,9 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::con
 
 ### Day 1: January 31
 
-#### 09:00 - 10:30: Session 1 - Introduction to R Markdown
+#### <i class="fa fa-github" aria-hidden="true"></i> 09:00 - 10:30: Session 1 - Introduction to R Markdown
   - Motivation
-  - Demo (R, Markdown, knitr, Pandoc/YAML, Parameters, Templates, Tables, htmlwidgets/Shiny)
+  - Demo: R, Markdown, knitr, Pandoc/YAML, Parameters, Templates, Tables, htmlwidgets/Shiny
   - Composing your prose with markdown
     - Text, headers, lists, hyperlinks
     - Math text
