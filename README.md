@@ -95,5 +95,7 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::con
   - bookdown, blogdown (maybe packagedown)
   - Troubleshooting tips + Q & A
 
+---
 
+## Packages
 
