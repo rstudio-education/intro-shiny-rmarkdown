@@ -7,9 +7,9 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::con
 ### Day 1: January 31
 
 #### :computer: 09:00 - 10:30: Session 1 - Introduction to R Markdown
-  - Motivation
-  - Demo: R, Markdown, knitr, Pandoc/YAML, Parameters, Templates, Tables, htmlwidgets/Shiny
-  - Composing your prose with markdown
+  - Welcome and motivation
+  - Demo: R, Markdown, knitr, Pandoc/YAML, Parameters, Templates, Tables, htmlwidgets, rpubs (and maybe shiny/shinyapps.io)
+  - Composing your prose (markdown)
     - Text, headers, lists, hyperlinks
     - Math text
     - Images
@@ -19,34 +19,47 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::con
 
 #### :coffee: 10:30 - 11:00: Morning break
 
-#### :computer: 11:00 - 12:30: Session 2 - [NEED NAME]
-  - Embedding code with knitr
+#### :computer: 11:00 - 12:30: Session 2 - Analysis and presentation
+  - Embedding R code (knitr)
     - Code chunks (inserting, local and global options, engine, caching)
     - Inline code
-    - Mail merge with render()
-  - Output formats 
+  - Output options (pandoc/yaml) 
     - Documents: 
       - HTML, PDF, Word, Markdown, Github document
       - Choosing the best/most appropriate output for your usecase
     - Slides: ioslides, reveal.js, beamer, xaringan
       - Choosing the best/most appropriate output for your usecase
-
+  - Demo: Mail merge
+  
 #### :fork_and_knife: 12:30 - 13:30: Lunch
 
-#### :computer: 13:30 - 15:00: Session 3
+#### :computer: 13:30 - 15:00: Session 3 - Upping your R Markdown game
+  - Parameterized reports
+  - Templates
+      - rticles package
+      - Customizing an existing template
+      - Creating a new template
 
 #### :coffee: 15:00 - 15:30: Afternoon break
 
-#### :computer: 15:30 - 17:00: Session 4 - Upping your R Markdown game
-  - Parameterized reports
-  - Templates
-  - First dip into interactivity
+#### :computer: 15:30 - 17:00: Session 4 - First dip into interactivity
+  - Embedding htmlwidgets in documents
+  - Embedding Shiny apps in documents
+  - Q & A
 
 ### Day 2: February 1
 
 #### :computer: 09:00 - 10:30: Session 5 - Intro to Shiny
-  - Repurpose from Intro to Shiny webinar: https://www.rstudio.com/resources/webinars/introduction-to-shiny/
 
+Note: Repurpose from [Intro to Shiny webinar](https://www.rstudio.com/resources/webinars/introduction-to-shiny/).
+
+  - High level view 
+  - Demo: input, output, reactivity
+  - Anatomy of a Shiny app 
+  - Reactivity 101
+  - File structure
+  - Sharing your app
+  
 #### :coffee: 10:30 - 11:00: Morning break
 
 #### :computer: 11:00 - 12:30: Session 6 - Designing your app
@@ -76,9 +89,9 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::con
 #### :coffee: 15:00 - 15:30: Afternoon break
 
 #### :computer: 15:30 - 17:00: Session 8 - Versatility of Shiny and R Markdown
-  - Interactivity in your documents (htmlwidgets, embedding Shiny apps, dashboards)
+  - Dashboards + dashboards with Shiny
   - R Markdown websites
-  - bookdown, blogdown, packagedown
+  - bookdown, blogdown (maybe packagedown)
   - Q & A
 
 
