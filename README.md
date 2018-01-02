@@ -2,6 +2,8 @@
 
 Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::conf 2018
 
+---
+
 ## Outline
 
 ### Day 1: January 31
@@ -97,5 +99,13 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::con
 
 ---
 
+## Setup instructions
+
+To be added...
+
+---
+
 ## Packages
+
+List of packages to be used will be added here...
 
