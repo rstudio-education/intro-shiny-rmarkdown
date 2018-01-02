@@ -14,7 +14,7 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::con
     - Math text
     - Images
     - Tables
-    - Bibliographies
+    - Bibliographies and citations
     - The Markdown Quick Reference
 
 #### :coffee: 10:30 - 11:00: Morning break
@@ -45,13 +45,13 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at rstudio::con
 #### :computer: 15:30 - 17:00: Session 4 - First dip into interactivity
   - Embedding htmlwidgets in documents
   - Embedding Shiny apps in documents
-  - Q & A
+  - Troubleshooting tips + Q & A
 
 ### Day 2: February 1
 
 #### :computer: 09:00 - 10:30: Session 5 - Intro to Shiny
 
-Note: Repurpose from [Intro to Shiny webinar](https://www.rstudio.com/resources/webinars/introduction-to-shiny/).
+*Note: Repurpose from [Intro to Shiny webinar](https://www.rstudio.com/resources/webinars/introduction-to-shiny/).*
 
   - High level view 
   - Demo: input, output, reactivity
@@ -67,6 +67,7 @@ Note: Repurpose from [Intro to Shiny webinar](https://www.rstudio.com/resources/
     - UI input options, and basic reactivity
     - Rendering functions
     - UI output options
+    - Interactive visualizations
   - Customizing appearance
     - HTML 
     - Layout panels
@@ -89,30 +90,10 @@ Note: Repurpose from [Intro to Shiny webinar](https://www.rstudio.com/resources/
 #### :coffee: 15:00 - 15:30: Afternoon break
 
 #### :computer: 15:30 - 17:00: Session 8 - Versatility of Shiny and R Markdown
-  - Dashboards + dashboards with Shiny
+  - Dashboards
   - R Markdown websites
   - bookdown, blogdown (maybe packagedown)
-  - Q & A
+  - Troubleshooting tips + Q & A
 
 
 
-## Shiny
-
-- Intro
-- Reactive programming
-- Designing the UI
-- Interactive visualizations
-- Dashboards
-- Modules
-- Troubleshooting
-
-## R Markdown
-
-- Intro
-- Chunks and inline
-- Bibliographies and Citations
-- Output types
-- Templates
-- Parametrized reports
-- Dashboards
-- Blogdown, bookdown, packagedown intro
