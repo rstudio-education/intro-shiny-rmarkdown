@@ -10,3 +10,11 @@
   - Slides: ioslides, reveal.js, beamer, xaringan
     - Choosing the best/most appropriate output for your usecase
 - Demo: Mail merge
+
+
+
+
+
+
+
+
