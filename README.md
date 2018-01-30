@@ -10,13 +10,12 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 
 #### :computer: 09:00 - 10:30: Session 1 - Introduction to R Markdown
   - Welcome and motivation
-  - Demo: R, Markdown, knitr, Pandoc/YAML, Parameters, Templates, Tables, htmlwidgets, rpubs (and maybe shiny/shinyapps.io)
-  - Composing your prose (markdown)
-    - Text, headers, lists, hyperlinks
+  - Demo
+  - Composing your prose with markdown
+    - Text and headers
+    - Links and images
     - Math text
-    - Images
     - Tables
-    - Bibliographies and citations
     - The Markdown Quick Reference
 
 #### :coffee: 10:30 - 11:00: Morning break
@@ -36,6 +35,7 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 #### :fork_and_knife: 12:30 - 13:30: Lunch
 
 #### :computer: 13:30 - 15:00: Session 3 - Upping your R Markdown game
+  - Bibliography and citation
   - Parameterized reports
   - Templates
       - rticles package
@@ -45,6 +45,7 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 #### :coffee: 15:00 - 15:30: Afternoon break
 
 #### :computer: 15:30 - 17:00: Session 4 - First dip into interactivity
+  - Dashboards
   - Embedding htmlwidgets in documents
   - Embedding Shiny apps in documents
   - Troubleshooting tips + Q & A
