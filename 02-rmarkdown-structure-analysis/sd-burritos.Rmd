@@ -33,6 +33,7 @@ At this time, the data set contains ratings from over `r nrow(burritos)`
 burritos fromd `r burritos %>% count(Location) %>% nrow()` restaurants.
 
 There are 10 core dimensions of the San Diego burrito:
+
  1. Volume 
  1. Tortilla quality 
  1. Temperature 
