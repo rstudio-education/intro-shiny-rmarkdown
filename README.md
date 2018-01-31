@@ -32,12 +32,10 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 #### :fork_and_knife: 12:30 - 13:30: Lunch
 
 #### :computer: 13:30 - 15:00: Session 3 - Upping your R Markdown game
+  - Tables
   - Bibliography and citation
-  - Parameterized reports
   - Templates
-      - rticles package
-      - Customizing an existing template
-      - Creating a new template
+  - Parameterized reports
 
 #### :coffee: 15:00 - 15:30: Afternoon break
 
@@ -60,9 +58,9 @@ All things Shiny! Details TBA.
 
 ```
 from_cran <- c("shiny", "rmarkdown", 
-               "DT", "devtools", "flexdashboard", "gapminder", 
-               "shinydashboard", "shinythemes", "tidyverse",
-               "tufte", "xaringan")
+               "DT", "devtools", "flexdashboard", "gapminder",
+               "rticles", "shinydashboard", "shinythemes", 
+               "tidyverse", "tufte", "xaringan")
 
 install.packages(from_cran, repos = "http://cran.rstudio.com")
 ```
