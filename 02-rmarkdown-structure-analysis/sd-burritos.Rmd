@@ -10,7 +10,7 @@ output:
 
 ## Load packages
 
-```{r load-data}
+```{r load-packages}
 library(tidyverse)
 ```
 
@@ -23,7 +23,7 @@ The data come from [Kaggle.com](https://www.kaggle.com/srcole/burritos-in-san-di
 >Appropriately, an effort was launched to critique burritos across the county 
 >and make this data open to the lay burrito consumer. 
 
-```{r load-packages}
+```{r load-data}
 burritos <- read_csv("../data/burritos_01022018.csv")
 ```
 
