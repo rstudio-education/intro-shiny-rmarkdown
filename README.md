@@ -8,7 +8,7 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 
 ### Day 1: January 31
 
-#### :computer: 09:00 - 10:30: Session 1 - Introduction to R Markdown
+#### :computer: 09:00 - 10:30: Session 1 - Getting started with Markdown
   - 00 - Welcome: Getting started instructions + motivation + demo
   - 01 - Composing your prose with Markdown:
     - Text and headers
@@ -16,26 +16,18 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
     - Math text
     - Tables
     - The Markdown Quick Reference
+    - Your turn: From plain text to embellished
+
+#### :coffee: 10:30 - 11:00: Morning break
+
+#### :computer: 11:00 - 12:30: Session 2 - Putting the R in R Markdown
   - 02 - Structuring your analysis with R Markdown:
     - Embedding R code -- in chunks and inline
     - Chunk and global options
     - Other languages
     - Output options
     - Output formats
-
-#### :coffee: 10:30 - 11:00: Morning break
-
-#### :computer: 11:00 - 12:30: Session 2 - Analysis and presentation
-  - Embedding R code (knitr)
-    - Code chunks (inserting, local and global options, engine, caching)
-    - Inline code
-  - Output options (pandoc/yaml) 
-    - Documents: 
-      - HTML, PDF, Word, Markdown, Github document
-      - Choosing the best/most appropriate output for your usecase
-    - Slides: ioslides, reveal.js, beamer, xaringan
-      - Choosing the best/most appropriate output for your usecase
-  - Demo: Mail merge
+    - Your turn: Restructure from plain R Markdown to xaringan slides or Tufte document
   
 #### :fork_and_knife: 12:30 - 13:30: Lunch
 
@@ -57,57 +49,31 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 
 ### Day 2: February 1
 
-#### :computer: 09:00 - 10:30: Session 5 - Intro to Shiny
+All things Shiny! Details TBA.
 
-*Note: Repurpose from [Intro to Shiny webinar](https://www.rstudio.com/resources/webinars/introduction-to-shiny/).*
-
-  - High level view 
-  - Demo: input, output, reactivity
-  - Anatomy of a Shiny app 
-  - Reactivity 101
-  - File structure
-  - Sharing your app
-  
-#### :coffee: 10:30 - 11:00: Morning break
-
-#### :computer: 11:00 - 12:30: Session 6 - Designing your app
-  - Inputs, outputs, and rendering functions
-    - UI input options, and basic reactivity
-    - Rendering functions
-    - UI output options
-    - Interactive visualizations
-  - Customizing appearance
-    - HTML 
-    - Layout panels
-    - Distributing contents across tabs
-    - CSS
-
-#### :fork_and_knife: 12:30 - 13:30: Lunch
-
-#### :computer: 13:30 - 15:00: Session 7 - Reactive programming
-  - Reactive objects
-	  - Reactive sources, endpoints, and conductors
-	  - reactiveValues()
-	  - Observers and side effects
-	- Stop - trigger - delay
-	  - isolate() 
-	  - observeEvent()
-	  - eventReactive()
-  - Reactivity best practices
-
-#### :coffee: 15:00 - 15:30: Afternoon break
-
-#### :computer: 15:30 - 17:00: Session 8 - Versatility of Shiny and R Markdown
-  - Dashboards
-  - R Markdown websites
-  - bookdown, blogdown (maybe packagedown)
-  - Troubleshooting tips + Q & A
 
 ---
 
 ## Setup instructions
 
-To be added...
+### Install
+
+```
+from_cran <- c("shiny", "rmarkdown", 
+               "DT", "devtools", "flexdashboard", "gapminder", 
+               "shinydashboard", "shinythemes", "tidyverse",
+               "tufte", "xaringan")
+
+install.packages(from_cran, repos = "http://cran.rstudio.com")
+```
+
+### Load
+
+```
+library(shiny)
+library(rmarkdown)
+... # load the remaining packages similarly
+```
 
 ---
 
