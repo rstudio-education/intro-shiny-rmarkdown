@@ -123,4 +123,4 @@ Overall rating vs. cost
 
 Next we visualize the relationship between the cost and overall rating of the burritos. The relationship appears to be positive, though the one extremely expensive burrito makes it difficult to assess the strength of the relationship.
 
-![](sd-burritos_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](sd-burritos_files/figure-markdown_github/chunk%20name%20with%20space-1.png)
