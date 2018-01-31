@@ -8,13 +8,13 @@ output:
     theme: cosmo
 ---
 
-## Load packages
-
 ```{r load-packages}
 library(tidyverse)
 ```
 
-## The data
+# The data
+
+## Kaggle: SD Burritos
 
 The data come from [Kaggle.com](https://www.kaggle.com/srcole/burritos-in-san-diego):
 
@@ -27,24 +27,38 @@ The data come from [Kaggle.com](https://www.kaggle.com/srcole/burritos-in-san-di
 burritos <- read_csv("../data/burritos_01022018.csv")
 ```
 
-At this time, the data set 
-contains ratings from over `r nrow(burritos)` burritos fromd `r burritos %>% count(Location) %>% nrow()` restaurants.
+## About the data
 
-There are 10 core dimensions of the San Diego burrito. * Volume * Tortilla 
-quality *Temperature * Meat quality * Non-meat filling quality * Meat-to-filling 
-ratio * Uniformity * Salsa quality * Flavor synergy * Wrap integrity
+At this time, the data set contains ratings from over `r nrow(burritos)` 
+burritos fromd `r burritos %>% count(Location) %>% nrow()` restaurants.
+
+There are 10 core dimensions of the San Diego burrito:
+ 1. Volume 
+ 1. Tortilla quality 
+ 1. Temperature 
+ 1. Meat quality 
+ 1. Non-meat filling quality 
+ 1. Meat-to-filling ratio 
+ 1. Uniformity 
+ 1. Salsa quality 
+ 1. Flavor synergy 
+ 1. Wrap integrity
 
 All of these measures (except for Volume) are rated on a scale from 0 to 5, 0 
 being terrible, and 5 being optimal. Other information available for each 
 burrito includes an overall rating, cost, Yelp rating of the restaurant, and more.
 
+## Glimpse at the data
+
 ```{r}
 glimpse(burritos)
 ```
 
-## Exploratory data analysis
+# Exploratory data analysis
 
-First let's take a look at who the reviewers are.
+## Reviewer counts
+
+First let's take a look at who the reviewers are:
 
 ```{r}
 burritos_rev_count <- burritos %>%
@@ -60,11 +74,14 @@ ggplot(data = burritos_rev_count, mapping = aes(x = Reviewer, y = n)) +
 
 Seems like `r burritos_rev_count$Reviewer[1]`  has been eating a lot of burritos!
 
-Next we visualize the relationship between the cost and overall rating of the burritos. The relationship appears to be positive, though the one extremely expensive burrito makes it difficult to assess the strength of the relationship.
+## Overall rating vs. cost
+
+Next we visualize the relationship between the cost and overall rating of the 
+burritos. The relationship appears to be positive, though the one extremely 
+expensive burrito makes it difficult to assess the strength of the relationship.
 
 ```{r}
 ggplot(data = burritos, mapping = aes(x = Cost, y = overall)) +
   geom_point() +
   labs(title = "Overall rating vs. cost", y = "Overall rating")
 ```
-
