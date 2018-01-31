@@ -5,3 +5,8 @@
 .DS_Store
 *.key
 /timer-videos/
+*soln.Rmd
+*soln.html
+*soln-sg.Rmd
+*soln-sg.html
+.dropbox
