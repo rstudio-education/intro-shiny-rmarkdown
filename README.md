@@ -49,7 +49,6 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 
 All things Shiny! Details TBA.
 
-
 ---
 
 ## Setup instructions
@@ -73,9 +72,4 @@ library(rmarkdown)
 ... # load the remaining packages similarly
 ```
 
----
-
-## Packages
-
-List of packages to be used will be added here...
 

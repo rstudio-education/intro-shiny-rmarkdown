@@ -46,9 +46,7 @@ Another useful package is `DT`, especially for displaying tables of with large n
 
 ```{r}
 burritos %>% 
-  DT::datatable(
-    options = list()
-  )
+  DT::datatable()
 ```
 
 Other packages

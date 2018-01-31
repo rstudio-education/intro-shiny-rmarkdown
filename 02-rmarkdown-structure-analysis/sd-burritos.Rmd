@@ -1,7 +1,7 @@
 ---
 title: "San Diego Burritos"
 author: "Mine Çetinkaya-Rundel"
-date: "2018-01-23"
+date: "`r Sys.Date()`"
 output: 
   html_document: 
     highlight: pygments
