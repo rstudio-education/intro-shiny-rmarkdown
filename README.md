@@ -9,14 +9,19 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 ### Day 1: January 31
 
 #### :computer: 09:00 - 10:30: Session 1 - Introduction to R Markdown
-  - Welcome and motivation
-  - Demo
-  - Composing your prose with markdown
+  - 00 - Welcome: Getting started instructions + motivation + demo
+  - 01 - Composing your prose with Markdown:
     - Text and headers
     - Links and images
     - Math text
     - Tables
     - The Markdown Quick Reference
+  - 02 - Structuring your analysis with R Markdown:
+    - Embedding R code -- in chunks and inline
+    - Chunk and global options
+    - Other languages
+    - Output options
+    - Output formats
 
 #### :coffee: 10:30 - 11:00: Morning break
 
