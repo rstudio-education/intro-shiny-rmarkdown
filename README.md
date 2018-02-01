@@ -20,7 +20,7 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 
 #### :coffee: 10:30 - 11:00: Morning break
 
-#### :computer: 11:00 - 12:30: Session 2 - Putting the R in R Markdown
+#### :computer: 11:00 - 12:00: Session 2 - Putting the R in R Markdown
   - 02 - Structuring your analysis with R Markdown:
     - Embedding R code -- in chunks and inline
     - Chunk and global options
@@ -29,9 +29,9 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
     - Output formats
     - Your turn: Restructure from plain R Markdown to xaringan slides or Tufte document
   
-#### :fork_and_knife: 12:30 - 13:30: Lunch
+#### :fork_and_knife: 12:00 - 13:00: Lunch
 
-#### :computer: 13:30 - 15:00: Session 3 - Upping your R Markdown game
+#### :computer: 13:00 - 15:00: Session 3 - Upping your R Markdown game
   - Tables
   - Bibliography and citation
   - Templates
