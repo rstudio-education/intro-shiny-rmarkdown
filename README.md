@@ -48,7 +48,7 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 ### Day 2: February 1
 
 #### :computer: 09:00 - 10:30: Session 1 - Getting started with Shiny
-  - 04 - Getting started with Shiny
+  - 04 - Getting started with Shiny:
     - High level view
     - Anatomy of a Shiny app
     - UI / Server
@@ -57,14 +57,12 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 
 #### :coffee: 10:30 - 11:00: Morning break
 
-#### :computer: 11:00 - 12:00: Session 2 - Putting the R in R Markdown
-  - 02 - Structuring your analysis with R Markdown:
-    - Embedding R code -- in chunks and inline
-    - Chunk and global options
-    - Other languages
-    - Output options
-    - Output formats
-    - Your turn: Restructure from plain R Markdown to xaringan slides or Tufte document
+#### :computer: 11:00 - 12:00: Session 2 - Understanding reactivity
+  - 05 - Understanding reactivity:
+    - Reactivity 101
+    - Reactive flow
+    - Implementation
+    - Render functions
   
 #### :fork_and_knife: 12:00 - 13:00: Lunch
 
