@@ -61,12 +61,9 @@ server <- function(input, output) {
   
   # Print data table if checked -------------------------------------
   output$moviestable <- DT::renderDataTable({
-    print(input$showdata)
-    if(input$showdata == TRUE){
       DT::datatable(data = movies[, 1:7], 
-                    options = list(pageLength = 10), 
-                    rownames = FALSE) 
-    }
+                    options = list(pageLength = 10, rownames = FALSE) 
+                    ) 
   })
   
 }
