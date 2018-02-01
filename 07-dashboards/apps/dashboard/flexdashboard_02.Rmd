@@ -1,37 +1,18 @@
 ---
 title: "flexdashboard + shiny"
 output: 
- flexdashboard::flex_dashboard:
-   orientation: columns
-   source_code: embed
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 runtime: shiny
 ---
 
-```{r global, include=FALSE}
-# load data in 'global' chunk so it can be shared by all users of the dashboard
-library(shiny)
-library(ggplot2)
-library(dplyr)
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
 ```
 
-Inputs {.sidebar}
------------------------------------------------------------------------
-
-```{r}
-checkboxGroupInput("cyl", "Cylinders", choices = c("4", "6", "8"),
-                   selected = c("4", "6", "8"), inline = TRUE
-                   )
-
-sliderInput("hp", "Horsepower",
-            min = min(mtcars$hp), max = max(mtcars$hp),
-            value = range(mtcars$hp)
-            )
-
-radioButtons("plot_type", "Weight plot type", 
-             choices = c("Histogram", "Violin plot"), selected = c("Histogram"))
-```
-
-Outputs
+Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### Scatterplot of weight and miles per gallon
@@ -52,6 +33,25 @@ renderPlot({
 })
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Inputs
+
+```{r}
+checkboxGroupInput("cyl", "Cylinders", choices = c("4", "6", "8"),
+                   selected = c("4", "6", "8"), inline = TRUE
+                   )
+
+sliderInput("hp", "Horsepower",
+            min = min(mtcars$hp), max = max(mtcars$hp),
+            value = range(mtcars$hp)
+            )
+
+radioButtons("plot_type", "Weight plot type", 
+             choices = c("Histogram", "Violin plot"), selected = c("Histogram"))
+```
+
 ### Histogram of weight
 
 ```{r}
@@ -69,3 +69,4 @@ renderPlot({
     
 })
 ```
+
