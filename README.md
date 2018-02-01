@@ -66,11 +66,10 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
   
 #### :fork_and_knife: 12:00 - 13:00: Lunch
 
-#### :computer: 13:00 - 15:00: Session 3 - Upping your R Markdown game
-  - Tables
-  - Bibliography and citation
-  - Templates
-  - Parameterized reports
+#### :computer: 13:00 - 15:00: Session 3 - Designing UI
+  - Interface builder functions
+  - Tabs
+  - shinythemes
 
 #### :coffee: 15:00 - 15:30: Afternoon break
 
