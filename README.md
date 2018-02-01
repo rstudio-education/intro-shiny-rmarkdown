@@ -6,9 +6,9 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 
 ## Locating the materials
 
-* Option 1 - :cloud: RStudio Cloud: bit.ly/shiny-rmd-cloud
+* Option 1 - :cloud: RStudio Cloud: [bit.ly/shiny-rmd-cloud](bit.ly/shiny-rmd-cloud)
 
-* Option 2 - :laptop: Local installation: bit.ly/shiny-rmd-repo
+* Option 2 - :computer: Local installation: [bit.ly/shiny-rmd-repo](bit.ly/shiny-rmd-repo)
 
 ---
 
