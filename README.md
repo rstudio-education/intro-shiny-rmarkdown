@@ -73,11 +73,10 @@ Materials for the "Intro to Shiny and R Markdown" 2-day workshop at [rstudio::co
 
 #### :coffee: 15:00 - 15:30: Afternoon break
 
-#### :computer: 15:30 - 17:00: Session 4 - First dip into interactivity
-  - Dashboards
-  - Embedding htmlwidgets in documents
-  - Embedding Shiny apps in documents
-  - Troubleshooting tips + Q & A
+#### :computer: 15:30 - 17:00: Session 4 - Dashboards
+  - What's in a dashboard?
+  - flexdashboards
+  - Where to go next?
 
 ---
 
@@ -101,5 +100,3 @@ library(shiny)
 library(rmarkdown)
 ... # load the remaining packages similarly
 ```
-
-
