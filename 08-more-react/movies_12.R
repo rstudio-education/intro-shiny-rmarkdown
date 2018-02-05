@@ -84,7 +84,7 @@ ui <- fluidPage(
                    label = "Sample size:", 
                    min = 1, max = nrow(movies), 
                    value = 50),
-      
+
       # Get a new sample ------------------------------------------------------
       actionButton(inputId = "get_new_sample", 
                    label = "Get new sample"), 

@@ -124,7 +124,7 @@ server <- function(input, output) {
       labs(x = toTitleCase(str_replace_all(input$x, "_", " ")),
            y = toTitleCase(str_replace_all(input$y, "_", " ")),
            color = toTitleCase(str_replace_all(input$z, "_", " ")),
-           title = pretty_plot_title()
+           title = isolate({ pretty_plot_title() })
       )
   })
   
