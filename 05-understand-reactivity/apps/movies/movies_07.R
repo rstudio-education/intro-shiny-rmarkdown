@@ -99,7 +99,7 @@ server <- function(input, output) {
   # Create scatterplot object the plotOutput function is expecting --
   output$scatterplot <- renderPlot({
     ggplot(data = movies_subset(), aes_string(x = input$x, y = input$y,
-                                     color = input$z)) +
+                                              color = input$z)) +
       geom_point(alpha = input$alpha, size = input$size) +
       labs(x = toTitleCase(str_replace_all(input$x, "_", " ")),
            y = toTitleCase(str_replace_all(input$y, "_", " ")),
